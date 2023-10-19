@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules/
+
+# Coverage
+coverage
+
+# Parcel Bundler
+.cache/
+dist/
+
+# Transpiled files
+build/
+
+# Misc
+.DS_Store
+.org
+*~
