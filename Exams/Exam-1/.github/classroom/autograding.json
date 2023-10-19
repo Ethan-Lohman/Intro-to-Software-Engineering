@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Node test",
+      "setup": "yarn install",
+      "run": "yarn test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
