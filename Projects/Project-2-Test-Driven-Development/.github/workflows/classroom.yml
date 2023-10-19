@@ -1,0 +1,22 @@
+name: GitHub GCC Action Test Action
+run-name: ${{ github.actor }} is running assignment test
+on: [push]
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  container-test-job:
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye
+      volumes:
+        - my_docker_volume:/volume_mount
+      options: --cpus 1
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Autograding
+        uses: education/autograding@v1

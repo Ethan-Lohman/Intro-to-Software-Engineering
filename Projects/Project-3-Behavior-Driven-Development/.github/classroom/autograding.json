@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Coverage",
+      "setup": "yarn install",
+      "run": "yarn test:coverage",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
