@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<link
+			rel="stylesheet"
+			data-name="vs/editor/editor.main"
+			href="./node_modules/monaco-editor/min/vs/editor/editor.main.css"
+		/>
+	</head>
+	<body>
+		<div id="container" style="width: 800px; height: 600px; border: 1px solid grey"></div>
+
+		<script>
+			const editor = monaco.editor.create(document.getElementById('container'), {
+			    value: ['Web VPython 3.2'].join('\n'),
+			    language: 'python',
+			});
+		</script>
+	</body>
+</html>
