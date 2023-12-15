@@ -1,4 +1,4 @@
-This final project was for improving this site: ![Glowscript](https://www.glowscript.org/#/)
+This final project was for improving this site: [Glowscript](https://www.glowscript.org/#/)
 
 These were the following goals:
 - Implement the Monaco Editor.
